@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+}
+
+.tattoo-list {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.tattoo-card {
+  width: 289px;
+  height: 384px;
+  position: relative;
+} 
+
+.favoutire {
+  position: absolute;
+
+}
+  
+
+.tattoo-card img {
+width: 289px;
+height: 228px;
+}
+
+.tattoo-card p {
+  font-size: 17px;
+  color: #3E424B;
+  text-align: center;
+}
+
+.tattoo-card h4 {
+  color: #BB8C5F;
+  font-size: 24px;
+}
