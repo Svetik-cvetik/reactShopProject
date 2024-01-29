@@ -5,7 +5,7 @@ export const TattooComponent = (props) => {
     const [amount,setAmount]=useState(0);
     const [isFavorite, setIsFavorite]=useState (true);
 
-    let amount = 0
+    
     const minusHandler = () => {
         if (amount === 0) return
         setAmount(amount - 1)
@@ -22,6 +22,7 @@ export const TattooComponent = (props) => {
     const favHandler = () => {
         setIsFavorite((prev)=>{return !prev})
     }
+    
   return (
 <div className="tattoo-card">
        <div className="favorite" onClick={favHandler}>
